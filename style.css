@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #06B6D4;
+    --secondary-color: #3F3D56;
+    --tertiary-color: #EDEDF4;
+    --quaternary-color: #CEE9F0;
+}
+
+
+
+* {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+}
+.container {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+h1 {
+    text-align: center;
+    background-color:var(--primary-color) ;
+    width: 100%;
+    height: 140px;
+    line-height: 140px;
+    vertical-align: middle;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+    margin: 0;
+    padding: 7px 13px ;
+
+    margin-bottom:2rem ;
+}
+label{
+    display: block;
+
+    margin: 0;
+    margin-bottom:0.9rem;
+    padding: 0;
+}
+
+input {
+    display: block;
+    text-align: center;
+    border-radius: 15px;;
+    margin-left: 2rem;
+    margin:auto;
+    border: 1px solid black;
+    padding: 7px 13px;
+}
+
+button {
+    padding: 7px 13px;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 10px;
+    border:none;
+}
+
+.output{
+    display: none;
+    margin-top: 2rem;
+    padding: 17px 13px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+.output p span{
+    word-spacing: 1rem;
+    letter-spacing: 1.1rem;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    body {
+        max-width: 95%;
+        width: 100%;
+    }
+
+    h1 {
+        height: 100%;
+        vertical-align: middle;
+        line-height: 100%;
+        padding: 17px 13px;
+        color: 
+    };
+}

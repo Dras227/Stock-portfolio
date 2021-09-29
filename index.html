@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stonks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <label >Initial Stock Price<input type="number" id ="stock-price-ini" value = "100"></label>
-    <label >Number of Stocks You bought<input type="number" id="no-of-stocks"value = "10"></label>
-    <label >Final Stock Price<input type="number" id="stock-price-fin"value = "20"></label>
+    <h1 class="heading">Stock Price Calculator</h1>
+    <div class="container">
+        <label>Initial Stock Price<input type="number" id="stock-price-ini" value="100"></label>
+        <label>Number of Stocks<input type="number" id="no-of-stocks" value="10"></label>
+        <label>Final Stock Price<input type="number" id="stock-price-fin" value="20"></label>
 
-    <button id="btn-check">Check</button>
+        <button id="btn-check">Check</button>
 
-    <div class="output"></div>
-
+        <div class="output"></div>
+    </div>
     <script src="app.js"></script>
 </body>
+
 </html>
